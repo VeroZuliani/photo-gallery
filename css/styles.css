@@ -18,12 +18,14 @@ body{
 
 .container-fluid{
     background-color: var(--bg-body);
+    padding: 0px;
 }
 
 .navbar-brand{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 0px;
 }
 
 .navbar-brand:focus, .navbar-brand:hover {
@@ -40,7 +42,8 @@ body{
 }
 
 .form-control{
-    width: 1050px;
+    /* width: 1050px; */
+    width: 1040px;
     background-color: var(--bg-body);
     border: none;
     font-weight: 500;
@@ -54,6 +57,16 @@ body{
     border: none; */
 }
 
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-search{
+    width: 20px;
+    height: 20px;
+}
 
 .img{
     width: 100px;
