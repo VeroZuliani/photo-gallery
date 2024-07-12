@@ -1,0 +1,101 @@
+
+
+:root{
+    --bg-body:#0a0b0c;
+    --txt-white:#f0f0f0;
+    --txt-gray:#515152;
+}
+
+body{
+    background-color: var(--bg-body);
+}
+
+.navbar{
+    background-color: var(--bg-body);
+    padding: 0px;
+    border-bottom: 1px solid var(--txt-gray);
+}
+
+.container-fluid{
+    background-color: var(--bg-body);
+}
+
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand:focus, .navbar-brand:hover {
+    color: var(--txt-gray);
+}
+
+.logo{
+    width: 125px;
+    color: var(--txt-white);
+    border-right: 1px solid var(--txt-gray);
+    text-align: center;
+    font-weight: 500;
+    padding: 13px 0;
+}
+
+.form-control{
+    width: 1050px;
+    background-color: var(--bg-body);
+    border: none;
+    font-weight: 500;
+    transition: background-color 1s, color 1s;
+}
+
+.form-control:focus,.form-control:hover{
+    background-color: var(--bg-body);
+    color: var(--txt-white);
+    /* outline: none;
+    border: none; */
+}
+
+
+.img{
+    width: 100px;
+    padding: 13px 0;
+    border-left: 1px solid var(--txt-gray);
+}
+
+.nav-underline{
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+    border-bottom: 1px solid var(--txt-gray);
+    margin-bottom: 25px;
+}
+
+.nav-link{
+    color:var(--txt-gray);
+    margin: 0 10px;
+    font-weight: 500;
+    transition: color 1s;
+}
+
+.nav-link:focus,.nav-link:hover{
+    color: var(--txt-white);
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0 15px; */
+}
+
+.row .col img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+
+/*REVISAR:
+- Buscador, eliminar borde
+- Buscador, agregar img
+- Link, al seleccionar queda azul   SOLUCIONADO
+- Img del navegador, es ovalado?
+*/
