@@ -42,7 +42,6 @@ body{
 }
 
 .form-control{
-    /* width: 1050px; */
     width: 1040px;
     background-color: var(--bg-body);
     border: none;
@@ -50,11 +49,10 @@ body{
     transition: background-color 1s, color 1s;
 }
 
-.form-control:focus,.form-control:hover{
+.form-control:focus,.form-control:hover{ 
     background-color: var(--bg-body);
     color: var(--txt-white);
-    /* outline: none;
-    border: none; */
+    box-shadow: none;
 }
 
 .d-flex{
