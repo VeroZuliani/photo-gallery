@@ -95,7 +95,6 @@ body{
 .row{
     display: flex;
     flex-wrap: wrap;
-    /* padding: 0 15px; */
 }
 
 .row .col img{
@@ -104,9 +103,3 @@ body{
 }
 
 
-/*REVISAR:
-- Buscador, eliminar borde
-- Buscador, agregar img
-- Link, al seleccionar queda azul   SOLUCIONADO
-- Img del navegador, es ovalado?
-*/
